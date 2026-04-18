@@ -63,6 +63,7 @@ body {
 }
 
 
+
 .heroContainer {
   display: flex;
   flex-direction: column;
@@ -123,6 +124,8 @@ body {
   flex-direction: row;
 }
 
+
+
 .aboutContainer {
   padding: 100px 60px;
   border-top: 1px solid #1a1a1a;
@@ -166,6 +169,8 @@ body {
   letter-spacing: 2px;
   text-transform: uppercase;
 }
+
+
 
 .projectsContainer {
   padding: 100px 60px;
@@ -217,4 +222,40 @@ body {
   text-transform: uppercase;
   border-bottom: 1px solid #c8b87a;
   padding-bottom: 4px;
+}
+
+
+
+.contactContainer {
+  padding: 100px 60px;
+  border-top: 1px solid #1a1a1a;
+}
+
+.contactContainer h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 48px;
+  margin-bottom: 40px;
+  color: #c8b87a;
+}
+
+.contactContainer a {
+  display: block;
+  color: #f0ede6;
+  text-decoration: none;
+  font-size: 16px;
+  margin-bottom: 15px;
+  letter-spacing: 1px;
+  transition: color 0.3s ease;
+}
+
+.contactContainer a:hover {
+  color: #c8b87a;
+}
+
+.contactContainer p {
+  margin-top: 40px;
+  color: #7a776e;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
