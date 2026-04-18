@@ -3,8 +3,9 @@ const About = () =>{
   return (
     <div className="aboutContainer">
       <h1>About Me</h1>
-      <p>I'm Yosef Ergano, a Software Engineer with 2+ years of expiernce in the field. 
-        I especialize in the frontend-side as well as some expiernce in the backend.
+      <p>I'm Yosef Ergano, a Software Engineer passionate about building clean and functional 
+        web applications. I specialize in frontend development and have built multiple real-world projects 
+        using HTML, CSS, JavaScript, React and TypeScript, while continuously growing my backend skills.
       </p>
       <h3>Skills</h3>
       <ul>
