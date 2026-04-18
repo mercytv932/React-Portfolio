@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@300;400;600&display=swap');
+
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+body {
+  background-color: #0a0a0a;
+  color: #f0ede6;
+  font-family: 'Raleway', sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background-color: #0a0a0a;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  border-bottom: 1px solid #c8c87a;
+}
+
+.navbar span {
+  font-family: 'Playfair Display' serif;
+  font-size: 24px;
+  color: #c8b87a;
+  font-weight: 700;
+}
+
+.navbar a {
+  color: #f0ede6;
+  text-decoration: none;
+  margin-left: 30px;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.navbar a:hover {
+  color: #c8b87a;
+}
+
+.navbar button {
+  margin-left: 30px;
+  padding: 10px 24px;
+  border: 1px solid #c8b87a;
+  background: transparent;
+  color: #c8b87a;
+  cursor: pointer;
+  letter-spacing: 2px;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.navbar button:hover {
+  background-color: #c8b87a;
+  color: #0a0a0a;
+}
