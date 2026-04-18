@@ -12,6 +12,7 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -25,7 +26,7 @@ body {
 }
 
 .navbar span {
-  font-family: 'Playfair Display' serif;
+  font-family: 'Playfair Display', serif;
   font-size: 24px;
   color: #c8b87a;
   font-weight: 700;
@@ -59,4 +60,65 @@ body {
 .navbar button:hover {
   background-color: #c8b87a;
   color: #0a0a0a;
+}
+
+
+.heroContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 90vh;
+  padding: 0 60px;
+}
+
+.heroContainer h5 {
+  color: #c8b87a;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.heroContainer h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 72px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.heroContainer h2 {
+  font-size: 32px;
+  color: #c8b87a;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.heroContainer p {
+  color: #7a776e;
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+
+.heroContainer button {
+  padding: 14px 32px;
+  margin-right: 20px;
+  cursor: pointer;
+  font-size: 13px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border: 1px solid #c8b87a;
+  background: transparent;
+  color: #c8b87a;
+  transition: all 0.3s ease;
+}
+
+.heroContainer button:hover {
+  background-color: #c8b87a;
+  color: #0a0a0a;
+}
+
+
+.heroBtns {
+  display: flex;
+  flex-direction: row;
 }
