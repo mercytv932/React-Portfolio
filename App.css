@@ -166,3 +166,55 @@ body {
   letter-spacing: 2px;
   text-transform: uppercase;
 }
+
+.projectsContainer {
+  padding: 100px 60px;
+  border-top: 1px solid #1a1a1a;
+}
+
+.projectsContainer h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 48px;
+  margin-bottom: 60px;
+  color: #c8b87a;
+}
+
+.projectsGrid{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.projectCard {
+  padding: 40px;
+  border: 1px solid #1a1a1a;
+  transition: border-color 0.3s ease;
+}
+
+.projectCard:hover {
+  border-color: #c8b87a;
+}
+
+.projectCard h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #f0ede6;
+}
+
+.projectCard p {
+  color: #7a776e;
+  line-height: 1.8;
+  margin-bottom: 25px;
+  font-size: 14px;
+}
+
+.projectCard a {
+  color: #c8b87a;
+  text-decoration: none;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border-bottom: 1px solid #c8b87a;
+  padding-bottom: 4px;
+}
