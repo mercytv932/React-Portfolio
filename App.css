@@ -122,3 +122,47 @@ body {
   display: flex;
   flex-direction: row;
 }
+
+.aboutContainer {
+  padding: 100px 60px;
+  border-top: 1px solid #1a1a1a;
+}
+
+.aboutContainer h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 48px;
+  margin-bottom: 30px;
+  color: #c8b87a;
+}
+
+.aboutContainer p {
+  font-size: 16px;
+  color: #7a776e;
+  max-width: 600px;
+  line-height: 1.8;
+  margin-bottom: 40px;
+}
+
+.aboutContainer h3 {
+  font-size: 20px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: #f0ede6;
+}
+
+.aboutContainer ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.aboutContainer ul li {
+  padding: 10px 24px;
+  border: 1px solid #c8b87a;
+  color: #c8b87a;
+  font-size: 13px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
