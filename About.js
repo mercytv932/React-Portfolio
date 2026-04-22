@@ -1,7 +1,7 @@
 
 const About = () =>{
   return (
-    <div className="aboutContainer">
+    <div className="aboutContainer" id="about">
       <h1>About Me</h1>
       <p>I'm Yosef Ergano, a Software Engineer passionate about building clean and functional 
         web applications. I specialize in frontend development and have built multiple real-world projects 
