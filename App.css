@@ -246,6 +246,7 @@ body {
   margin-bottom: 15px;
   letter-spacing: 1px;
   transition: color 0.3s ease;
+  text-transform: none;
 }
 
 .contactContainer a:hover {
@@ -258,4 +259,8 @@ body {
   font-size: 14px;
   letter-spacing: 2px;
   text-transform: uppercase;
+}
+
+html {
+  scroll-behavior: smooth;
 }
