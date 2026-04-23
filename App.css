@@ -66,10 +66,11 @@ body {
 
 .heroContainer {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
   min-height: 90vh;
   padding: 0 60px;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .heroContainer h5 {
@@ -122,6 +123,15 @@ body {
 .heroBtns {
   display: flex;
   flex-direction: row;
+}
+
+.heroImage img {
+  width: 380px;
+  height: 380px;
+  object-fit: cover;
+  object-position: top;
+  border: 2px solid #c8b87a;
+  border-radius: 50%;
 }
 
 
@@ -264,3 +274,5 @@ body {
 html {
   scroll-behavior: smooth;
 }
+
+
