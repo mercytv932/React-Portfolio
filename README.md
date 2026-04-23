@@ -1,5 +1,4 @@
 # Yosef Ergano — Portfolio
-
 A personal portfolio website built with React featuring a dark luxury design.
 
 ## Built With
@@ -14,7 +13,7 @@ A personal portfolio website built with React featuring a dark luxury design.
 - Contact section with GitHub and LinkedIn links
 
 ## Live Demo
-Coming soon...
+https://react-portfolio-jet-eta.vercel.app
 
 ## Author
 Yosef Ergano
