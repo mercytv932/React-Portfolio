@@ -132,6 +132,11 @@ body {
   object-position: top;
   border: 2px solid #c8b87a;
   border-radius: 50%;
+  transition: 0.3s ease;
+}
+
+.heroImage img:hover {
+  box-shadow: 0 0 50px rgba(200, 184, 122, 0.7);
 }
 
 
