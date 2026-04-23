@@ -1,38 +1,283 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@300;400;600&display=swap');
+
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: #0a0a0a;
+  color: #f0ede6;
+  font-family: 'Raleway', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 20px 60px;
+  background-color: #0a0a0a;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  border-bottom: 1px solid #c8c87a;
 }
 
-.App-link {
-  color: #61dafb;
+.navbar span {
+  font-family: 'Playfair Display', serif;
+  font-size: 24px;
+  color: #c8b87a;
+  font-weight: 700;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar a {
+  color: #f0ede6;
+  text-decoration: none;
+  margin-left: 30px;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
+
+.navbar a:hover {
+  color: #c8b87a;
+}
+
+.navbar button {
+  margin-left: 30px;
+  padding: 10px 24px;
+  border: 1px solid #c8b87a;
+  background: transparent;
+  color: #c8b87a;
+  cursor: pointer;
+  letter-spacing: 2px;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.navbar button:hover {
+  background-color: #c8b87a;
+  color: #0a0a0a;
+}
+
+
+
+.heroContainer {
+  display: flex;
+  flex-direction: row;
+  min-height: 90vh;
+  padding: 0 60px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.heroContainer h5 {
+  color: #c8b87a;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.heroContainer h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 72px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.heroContainer h2 {
+  font-size: 32px;
+  color: #c8b87a;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.heroContainer p {
+  color: #7a776e;
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+
+.heroContainer button {
+  padding: 14px 32px;
+  margin-right: 20px;
+  cursor: pointer;
+  font-size: 13px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border: 1px solid #c8b87a;
+  background: transparent;
+  color: #c8b87a;
+  transition: all 0.3s ease;
+}
+
+.heroContainer button:hover {
+  background-color: #c8b87a;
+  color: #0a0a0a;
+}
+
+
+.heroBtns {
+  display: flex;
+  flex-direction: row;
+}
+
+.heroImage img {
+  width: 380px;
+  height: 380px;
+  object-fit: cover;
+  object-position: top;
+  border: 2px solid #c8b87a;
+  border-radius: 50%;
+  transition: 0.3s ease;
+}
+
+.heroImage img:hover {
+  box-shadow: 0 0 50px rgba(200, 184, 122, 0.7);
+}
+
+
+
+.aboutContainer {
+  padding: 100px 60px;
+  border-top: 1px solid #1a1a1a;
+}
+
+.aboutContainer h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 48px;
+  margin-bottom: 30px;
+  color: #c8b87a;
+}
+
+.aboutContainer p {
+  font-size: 16px;
+  color: #7a776e;
+  max-width: 600px;
+  line-height: 1.8;
+  margin-bottom: 40px;
+}
+
+.aboutContainer h3 {
+  font-size: 20px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: #f0ede6;
+}
+
+.aboutContainer ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.aboutContainer ul li {
+  padding: 10px 24px;
+  border: 1px solid #c8b87a;
+  color: #c8b87a;
+  font-size: 13px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+
+
+.projectsContainer {
+  padding: 100px 60px;
+  border-top: 1px solid #1a1a1a;
+}
+
+.projectsContainer h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 48px;
+  margin-bottom: 60px;
+  color: #c8b87a;
+}
+
+.projectsGrid{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.projectCard {
+  padding: 40px;
+  border: 1px solid #1a1a1a;
+  transition: border-color 0.3s ease;
+}
+
+.projectCard:hover {
+  border-color: #c8b87a;
+}
+
+.projectCard h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #f0ede6;
+}
+
+.projectCard p {
+  color: #7a776e;
+  line-height: 1.8;
+  margin-bottom: 25px;
+  font-size: 14px;
+}
+
+.projectCard a {
+  color: #c8b87a;
+  text-decoration: none;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border-bottom: 1px solid #c8b87a;
+  padding-bottom: 4px;
+}
+
+
+
+.contactContainer {
+  padding: 100px 60px;
+  border-top: 1px solid #1a1a1a;
+}
+
+.contactContainer h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 48px;
+  margin-bottom: 40px;
+  color: #c8b87a;
+}
+
+.contactContainer a {
+  display: block;
+  color: #f0ede6;
+  text-decoration: none;
+  font-size: 16px;
+  margin-bottom: 15px;
+  letter-spacing: 1px;
+  transition: color 0.3s ease;
+  text-transform: none;
+}
+
+.contactContainer a:hover {
+  color: #c8b87a;
+}
+
+.contactContainer p {
+  margin-top: 40px;
+  color: #7a776e;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
