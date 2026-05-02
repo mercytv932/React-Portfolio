@@ -5,7 +5,7 @@ const Hero = () => {
       <div className="heroText">
   <h5>Hello, I'm </h5>
   <h1>Yosef Ergano</h1>
-  <h2>Software Engineer</h2>
+  <h2>Aspiring Full-Stack Software Engineer</h2>
   <p>Building full-stack web applications using technologies like HTML, CSS, JavaScript, React, and Node.js</p>
   <div className="heroBtns">
   <button>View My Work</button>
