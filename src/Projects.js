@@ -23,8 +23,8 @@ const Projects = () =>{
 
       <div className="projectCard">
         <h3>Notes App</h3>
-        <p>Notes app built with JavaScript. Create, edit, delete and search notes with 
-          localStorage persistence. Supports JSON export and import.</p>
+        <p>Built a notes application with full CRUD functionality using JavaScript and 
+         localStorage, allowing users to create, edit, delete, and persist notes.</p>
         <a href="https://github.com/mercytv932/Notes_App">View on GitHub</a>
       </div>
 

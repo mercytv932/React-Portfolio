@@ -5,8 +5,8 @@ const Hero = () => {
       <div className="heroText">
   <h5>Hello, I'm </h5>
   <h1>Yosef Ergano</h1>
-  <h2>Software Engineer</h2>
-  <p>Building full-stack web applications using technologies like HTML, CSS, JavaScript, React, and Node.js</p>
+  <h2>Aspiring Full-Stack Software Engineer</h2>
+  <p>I build modern web applications using JavaScript, React, and Node.js, focused on solving real-world problems.</p>
   <div className="heroBtns">
   <button>View My Work</button>
   <button>Contact Me</button>
