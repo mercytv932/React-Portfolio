@@ -281,3 +281,59 @@ html {
 }
 
 
+@media (max-width: 768px) {
+  .navbar {
+    padding: 15px 20px;
+  }
+
+  .navbar a {
+    display: none;
+  }
+
+  .navbar button {
+    margin-left: 10px;
+  }
+
+  .heroContainer {
+    flex-direction: column;
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  .heroContainer h1 {
+    font-size: 42px;
+  }
+
+  .heroContainer h2 {
+    font-size: 22px;
+  }
+
+  .heroImage {
+    margin-top: 40px;
+  }
+
+  .heroImage img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .heroBtns {
+    justify-content: center;
+  }
+
+  .aboutContainer {
+    padding: 60px 20px;
+  }
+
+  .projectsContainer {
+    padding: 60px 20px;
+  }
+
+  .projectsGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .contactContainer {
+    padding: 60px 20px;
+  }
+}
