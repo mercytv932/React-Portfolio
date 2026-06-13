@@ -281,35 +281,106 @@ html {
 }
 
 
-@media (max-width: 768px) {
+
+/*Media styles*/
+
+/* TABLET LANDSCAPE (1024px and up) */
+@media (max-width: 1024px) {
   .navbar {
-    padding: 15px 20px;
+    padding: 15px 40px;
+  }
+
+  .navbar span {
+    font-size: 20px;
   }
 
   .navbar a {
-    display: none;
+    margin-left: 20px;
+    font-size: 12px;
+  }
+
+  .heroContainer {
+    padding: 0 40px;
+  }
+
+  .heroContainer h1 {
+    font-size: 56px;
+  }
+
+  .heroContainer h2 {
+    font-size: 28px;
+  }
+
+  .heroImage img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .aboutContainer,
+  .projectsContainer,
+  .contactContainer {
+    padding: 80px 40px;
+  }
+
+  .projectsContainer h1,
+  .aboutContainer h1,
+  .contactContainer h1 {
+    font-size: 40px;
+  }
+
+  .projectsGrid {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+}
+
+/* TABLET PORTRAIT (768px to 1023px) */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 12px 30px;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .navbar span {
+    font-size: 18px;
+  }
+
+  .navbar a {
+    margin-left: 0;
+    font-size: 11px;
   }
 
   .navbar button {
-    margin-left: 10px;
+    margin-left: 0;
+    font-size: 11px;
+    padding: 8px 20px;
   }
 
   .heroContainer {
     flex-direction: column;
-    padding: 40px 20px;
+    padding: 40px 30px;
+    min-height: 80vh;
     text-align: center;
   }
 
   .heroContainer h1 {
-    font-size: 42px;
+    font-size: 48px;
+    margin-bottom: 8px;
   }
 
   .heroContainer h2 {
-    font-size: 22px;
+    font-size: 24px;
+  }
+
+  .heroContainer p {
+    font-size: 14px;
+    margin-bottom: 30px;
   }
 
   .heroImage {
-    margin-top: 40px;
+    order: -1;
+    margin-bottom: 40px;
   }
 
   .heroImage img {
@@ -321,19 +392,284 @@ html {
     justify-content: center;
   }
 
-  .aboutContainer {
-    padding: 60px 20px;
+  .heroContainer button {
+    padding: 12px 28px;
+    font-size: 12px;
+    margin-right: 10px;
+    margin-bottom: 10px;
   }
 
-  .projectsContainer {
-    padding: 60px 20px;
-  }
-
-  .projectsGrid {
-    grid-template-columns: 1fr;
-  }
-
+  .aboutContainer,
+  .projectsContainer,
   .contactContainer {
-    padding: 60px 20px;
+    padding: 60px 30px;
+  }
+
+  .projectsContainer h1,
+  .aboutContainer h1,
+  .contactContainer h1 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .aboutContainer p {
+    max-width: 100%;
+    font-size: 15px;
+  }
+
+  .aboutContainer ul {
+    justify-content: center;
+  }
+
+  .projectCard {
+    padding: 30px;
+  }
+
+  .projectCard h3 {
+    font-size: 22px;
+  }
+
+  .projectCard p {
+    font-size: 13px;
+  }
+
+  .contactContainer a {
+    font-size: 15px;
+  }
+}
+
+/* MOBILE LANDSCAPE (481px to 767px) */
+@media (max-width: 600px) {
+  .navbar {
+    padding: 10px 20px;
+  }
+
+  .navbar span {
+    font-size: 16px;
+  }
+
+  .navbar a {
+    font-size: 10px;
+    margin-left: 0;
+    margin-bottom: 8px;
+  }
+
+  .navbar button {
+    padding: 6px 16px;
+    font-size: 10px;
+    margin-left: 0;
+  }
+
+  .heroContainer {
+    padding: 30px 20px;
+    min-height: 70vh;
+  }
+
+  .heroContainer h5 {
+    font-size: 12px;
+    margin-bottom: 15px;
+  }
+
+  .heroContainer h1 {
+    font-size: 40px;
+    margin-bottom: 6px;
+  }
+
+  .heroContainer h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+
+  .heroContainer p {
+    font-size: 13px;
+    margin-bottom: 25px;
+  }
+
+  .heroImage img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .heroBtns {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .heroContainer button {
+    width: 100%;
+    max-width: 200px;
+    padding: 10px 24px;
+    margin-right: 0;
+    margin-bottom: 12px;
+    font-size: 11px;
+  }
+
+  .aboutContainer,
+  .projectsContainer,
+  .contactContainer {
+    padding: 50px 20px;
+  }
+
+  .projectsContainer h1,
+  .aboutContainer h1,
+  .contactContainer h1 {
+    font-size: 32px;
+    margin-bottom: 30px;
+  }
+
+  .aboutContainer p {
+    font-size: 14px;
+  }
+
+  .aboutContainer h3 {
+    font-size: 18px;
+  }
+
+  .aboutContainer ul li {
+    font-size: 11px;
+    padding: 8px 16px;
+  }
+
+  .projectCard {
+    padding: 25px;
+  }
+
+  .projectCard h3 {
+    font-size: 20px;
+  }
+
+  .projectCard p {
+    font-size: 12px;
+  }
+
+  .projectCard a {
+    font-size: 11px;
+  }
+
+  .contactContainer a {
+    font-size: 14px;
+  }
+
+  .contactContainer p {
+    font-size: 13px;
+  }
+}
+
+/* MOBILE PORTRAIT (480px and below) */
+@media (max-width: 480px) {
+  .navbar {
+    padding: 8px 15px;
+    gap: 10px;
+  }
+
+  .navbar span {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  .navbar a {
+    font-size: 9px;
+    margin-bottom: 6px;
+  }
+
+  .navbar button {
+    padding: 5px 12px;
+    font-size: 9px;
+    width: 100%;
+  }
+
+  .heroContainer {
+    padding: 20px 15px;
+    min-height: 60vh;
+  }
+
+  .heroContainer h5 {
+    font-size: 11px;
+    margin-bottom: 12px;
+  }
+
+  .heroContainer h1 {
+    font-size: 32px;
+    margin-bottom: 5px;
+  }
+
+  .heroContainer h2 {
+    font-size: 18px;
+    margin-bottom: 12px;
+  }
+
+  .heroContainer p {
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+
+  .heroImage img {
+    width: 160px;
+    height: 160px;
+  }
+
+  .heroContainer button {
+    padding: 9px 20px;
+    font-size: 10px;
+  }
+
+  .aboutContainer,
+  .projectsContainer,
+  .contactContainer {
+    padding: 40px 15px;
+  }
+
+  .projectsContainer h1,
+  .aboutContainer h1,
+  .contactContainer h1 {
+    font-size: 28px;
+    margin-bottom: 25px;
+  }
+
+  .aboutContainer p {
+    font-size: 13px;
+  }
+
+  .aboutContainer h3 {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+
+  .aboutContainer ul {
+    gap: 10px;
+  }
+
+  .aboutContainer ul li {
+    font-size: 10px;
+    padding: 6px 12px;
+  }
+
+  .projectCard {
+    padding: 20px;
+  }
+
+  .projectCard h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .projectCard p {
+    font-size: 11px;
+    margin-bottom: 15px;
+  }
+
+  .projectCard a {
+    font-size: 10px;
+  }
+
+  .contactContainer a {
+    font-size: 13px;
+    margin-bottom: 10px;
+  }
+
+  .contactContainer p {
+    font-size: 12px;
+    margin-top: 30px;
   }
 }
