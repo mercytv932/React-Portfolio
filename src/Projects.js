@@ -9,16 +9,17 @@ const Projects = () =>{
 
       <div className="projectCard">
         <h3>Expense Tracker</h3>
-        <p>Expense Tracker built with TypeScript. Track expenses by category, 
-          filter by type, and view a running total.</p>
-        <a href="https://github.com/mercytv932/Expense_Tracker">View on GitHub</a>
+        <p>  An expense tracker built with JavaScript, HTML, CSS, and etc. Users can add expenses, organize them by category,
+             filter by type, and view a live running total.</p>
+        <a href="https://github.com/mercytv932/Expense-Tracker">View on GitHub</a>
       </div>
       
       <div className="projectCard">
-        <h3>Image Search App</h3>
-        <p>Image search app built with JavaScript. Search for any image 
-          using the Unsplash API and browse through results in real time.</p>
-        <a href="https://github.com/mercytv932/Image_Search_App">View on GitHub</a>
+        <h3>Job Application Tracker</h3>
+        <p>  Built a job application tracking system using HTML, CSS, and JavaScript.
+             Features include application management, search and filtering, status updates,
+             dynamic dashboard statistics, and an interactive user interface.</p>
+        <a href="https://github.com/mercytv932/Job-Application-Tracker">View on GitHub</a>
       </div>
 
       <div className="projectCard">
@@ -28,10 +29,10 @@ const Projects = () =>{
         <a href="https://github.com/mercytv932/Notes_App">View on GitHub</a>
       </div>
 
-      <div className="projectCard"> <h3>Infinite Scroll Gallery</h3>
-      <p>Image gallery with infinite scroll built with JavaScript. 
-        Fetches images from the Unsplash API and loads more as you scroll down.</p>
-      <a href="https://github.com/mercytv932/Infinite_Sccroll_Gallery">View on GitHub</a>
+      <div className="projectCard"> <h3>Movie Search App</h3>
+      <p>A movie search app built with HTML, CSS, and JavaScript. Users can search for
+        movies, view movie details, and browse results using data from a movie API.</p>
+      <a href="https://github.com/mercytv932/Movie-Search">View on GitHub</a>
       </div>
       </div>
 
