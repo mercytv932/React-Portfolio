@@ -1,17 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@300;400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@300;400;600&display=swap");
 
 * {
- margin: 0;
- padding: 0;
- box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
   background-color: #0a0a0a;
   color: #f0ede6;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
-
 
 .navbar {
   display: flex;
@@ -26,7 +25,7 @@ body {
 }
 
 .navbar span {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-size: 24px;
   color: #c8b87a;
   font-weight: 700;
@@ -62,8 +61,6 @@ body {
   color: #0a0a0a;
 }
 
-
-
 .heroContainer {
   display: flex;
   flex-direction: row;
@@ -82,7 +79,7 @@ body {
 }
 
 .heroContainer h1 {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-size: 72px;
   font-weight: 700;
   margin-bottom: 10px;
@@ -119,7 +116,6 @@ body {
   color: #0a0a0a;
 }
 
-
 .heroBtns {
   display: flex;
   flex-direction: row;
@@ -139,15 +135,13 @@ body {
   box-shadow: 0 0 50px rgba(200, 184, 122, 0.7);
 }
 
-
-
 .aboutContainer {
   padding: 100px 60px;
   border-top: 1px solid #1a1a1a;
 }
 
 .aboutContainer h1 {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-size: 48px;
   margin-bottom: 30px;
   color: #c8b87a;
@@ -185,21 +179,19 @@ body {
   text-transform: uppercase;
 }
 
-
-
 .projectsContainer {
   padding: 100px 60px;
   border-top: 1px solid #1a1a1a;
 }
 
 .projectsContainer h1 {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-size: 48px;
   margin-bottom: 60px;
   color: #c8b87a;
 }
 
-.projectsGrid{
+.projectsGrid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 30px;
@@ -216,7 +208,7 @@ body {
 }
 
 .projectCard h3 {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-size: 24px;
   margin-bottom: 15px;
   color: #f0ede6;
@@ -239,15 +231,13 @@ body {
   padding-bottom: 4px;
 }
 
-
-
 .contactContainer {
   padding: 100px 60px;
   border-top: 1px solid #1a1a1a;
 }
 
 .contactContainer h1 {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-size: 48px;
   margin-bottom: 40px;
   color: #c8b87a;
@@ -279,8 +269,6 @@ body {
 html {
   scroll-behavior: smooth;
 }
-
-
 
 /*Media styles*/
 
